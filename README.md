@@ -16,8 +16,9 @@ The dataset used in this project consists of real and fake images collected from
 For this classification task, I will use a basic Convolutional Neural Network (CNN) model due to its effectiveness in image classification tasks. The CNN model consists of several convolutional layers, followed by pooling layers to reduce dimensionality, and fully connected layers to make final predictions. A sigmoid activation function is used in the output layer to classify images into one of the two classes.
 
 ## Downloading dataset
-The dataset was downloaded from kaggle. [Download page ](https://www.kaggle.com/datasets/ahemateja19bec1025/traffic-sign-dataset-classification)
-
+The dataset was downloaded from https://github.com/2spi/ai-v-real/tree/master/data orignal data source is from the dataset used for training and evaluation consists of two categories of images:
+REAL images: These images are sourced from the Krizhevsky & Hinton's CIFAR-10 dataset, which is a widely-used benchmark dataset for image classification tasks.
+FAKE images: These images were generated using the equivalent of CIFAR-10 with Stable Diffusion version 1.4.
 ## Using the predict function.
 If input is a list of images, we can use the predict function as it is.
 If input is similar to a data folder, with subfolders containing examples of each class, then please use the validate_data_folder function with the data folder path as input.
